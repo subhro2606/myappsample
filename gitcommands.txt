@@ -25,6 +25,8 @@ git commit -m 'Changed app.js'
 #Compares the files in the staging area with the files present locally
 git diff
 
+#Checks out/retrives the last committed version of a file.(Generally used if files are inadvartently updated)
+git checkout page2.txt
 
 
 
