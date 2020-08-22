@@ -36,7 +36,10 @@ git log
 git remote add origin https://github.com/subhro2606/myappsample.git
 
 
-
+#Pushes all the details from "master" to the "origin" repository
+#-u option syncs the local with the remote respository, "origin" ia the name of the remote and master is name of local
+#master is the default branch for all commits
+git push -u origin master
 
 
 
