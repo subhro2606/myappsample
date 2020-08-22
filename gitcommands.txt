@@ -28,9 +28,34 @@ git diff
 #Checks out/retrives the last staged(if that's not been commited yet) or committed version of a file.(Generally used if files are inadvartently updated)
 git checkout page2.txt
 
+#See the different commits made
+git log
+
+
+#Adds a remote respository to repository name as "origin"
+git remote add origin https://github.com/subhro2606/myappsample.git
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*******************************
 #.gitignore whatever files, folders are to ignored for adding into the staging area or repo needs to be specified here
 touch .gitignore
 
