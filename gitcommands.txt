@@ -41,9 +41,8 @@ git remote add origin https://github.com/subhro2606/myappsample.git
 #master is the default branch for all commits
 git push -u origin master
 
-
-
-
+#Allows pulling from remote with unrelated commits(NOT RECOMMENDED)
+git pull origin master --allow-unrelated-histories
 
 
 
