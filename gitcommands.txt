@@ -55,7 +55,26 @@ git push --set-upstream origin master
 git clone https://github.com/subhro2606/myappsample.git
 
 
+###Branching tutorial####
 
+#View git branches
+git branch
+
+#create a new branch
+git branch experiments
+
+#check out the new branch
+git checkout experiments
+
+#Do necessary modifications and commit
+
+#switch back to the old master branch
+git checkout master
+
+#merge the branches
+git merge experiments
+
+#now push changes to the origin
 
 
 
