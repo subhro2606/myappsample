@@ -22,11 +22,12 @@ git commit
 #Add files from the staging area to the respository. This would add the comment without opening VIM
 git commit -m 'Changed app.js'
 
-#Compares the files in the staging area with the files present locally
+#Compares the files in the staging area with the files present in the working directory
 git diff
 
-#Checks out/retrives the last committed version of a file.(Generally used if files are inadvartently updated)
+#Checks out/retrives the last staged(if that's not been commited yet) or committed version of a file.(Generally used if files are inadvartently updated)
 git checkout page2.txt
+
 
 
 
