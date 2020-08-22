@@ -22,8 +22,9 @@ git commit
 #Add files from the staging area to the respository. This would add the comment without opening VIM
 git commit -m 'Changed app.js'
 
-#Compares the files in the staging area with the files commited in the local repo
+#Compares the files in the staging area with the files present locally
 git diff
+
 
 
 
