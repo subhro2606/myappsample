@@ -51,6 +51,8 @@ git push --set-upstream origin master
 .getignore
 
 
+#Clone from a repository
+git clone https://github.com/subhro2606/myappsample.git
 
 
 
