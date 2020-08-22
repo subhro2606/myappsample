@@ -77,7 +77,10 @@ git merge experiments
 #now push changes to the origin
 
 
+###Forking & Pull Request###
 
+Forking: Copying github repositories owned by other account to your own account and then making changes to it
+Pull Request: Making a request to the owner account to merge the changes you made to your copied repo on your account.
 
 
 
