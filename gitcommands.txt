@@ -43,8 +43,12 @@ git push -u origin master
 
 #Allows pulling from remote with unrelated commits(NOT RECOMMENDED)
 git pull origin master --allow-unrelated-histories
+#Used when encountered error "The current branch master has no upstream branch."
+git push --set-upstream origin master
 
 
+# All file names specifed in the gitignore file are not committed to the git. You can use wildcards(*) in the names of files
+.getignore
 
 
 
